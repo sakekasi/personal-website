@@ -1,8 +1,19 @@
+body{
+	background-image: url('CNyIluAZGcq_odJmNlbTAAXgnyXDoi2CrAdOVrOinrI.jpg');
+}
+
 .main-menu{
-    width: 100px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(1,1,1,.5);
+    border-bottom: dashed;
 }
 
 .menu-entry{
     display: block;
-    width: 100%;
+    font-size: 20pt;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-top: dashed;
+    color: #737373;
 }

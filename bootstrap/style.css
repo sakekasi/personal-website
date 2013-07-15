@@ -1,19 +1,54 @@
+html {
+    height: 100%
+}
+
+
 body{
-	background-image: url('CNyIluAZGcq_odJmNlbTAAXgnyXDoi2CrAdOVrOinrI.jpg');
+	height: 100%;
+
+	background-image: url('New-York-Skyline-Night-Usa.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container{
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+.menu-container{
+    display: table;
+
+    height: 100%;
 }
 
 .main-menu{
+    display: table-cell;
+    vertical-align: middle;
+
     width: 100%;
-    height: auto;
-    background-color: rgba(1,1,1,.5);
-    border-bottom: dashed;
+    height: 100%;
 }
 
 .menu-entry{
     display: block;
-    font-size: 20pt;
-    padding-bottom: 4px;
-    padding-top: 4px;
+
+    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
     border-top: dashed;
+
     color: #737373;
+    background-color: rgba(1,1,1,.8);
+
+    font-size: 20pt;
+}
+
+.menu-bottom{
+    border-bottom: dashed;
 }

@@ -1,3 +1,5 @@
+
+
 html {
     height: 100%
 }
@@ -6,7 +8,8 @@ html {
 body{
 	height: 100%;
 
-	background-image: url('New-York-Skyline-Night-Usa.jpg');
+//	background-image: url('New-York-Skyline-Night-Usa.jpg');
+    background-image: url('CNyIluAZGcq_odJmNlbTAAXgnyXDoi2CrAdOVrOinrI.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -47,6 +50,31 @@ body{
     background-color: rgba(1,1,1,.8);
 
     font-size: 20pt;
+}
+
+.menu-entry a{
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+
+      /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+     -o-transition:.5s;
+     -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     /* ...and now for the proper property */
+     transition:.5s;
+ }
+
+.menu-entry a:focus{
+    color: #EEEEEE;
+}
+
+.menu-entry a:hover{
+    color: #AAAAAA;
 }
 
 .menu-bottom{

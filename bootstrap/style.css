@@ -1,5 +1,3 @@
-
-
 html {
     height: 100%
 }
@@ -24,13 +22,13 @@ body{
     height: 100%;
 }
 
-.menu-container{
+.main-content{
     display: table;
 
     height: 100%;
 }
 
-.main-menu{
+.page-content{
     display: table-cell;
     vertical-align: middle;
 

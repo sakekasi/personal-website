@@ -6,26 +6,34 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="style.css" rel="stylesheet" media="screen">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="span4" ></div>
+        <div class="span3" ></div>
 
-        <div class="span4 menu-container">
-          <div class="main-menu">
-            <span class="menu-entry"><a href="">About Me</a></span>
+        <div class="span6 main-content">
+          <div id="main-menu" class="page-content">
+            <span id="about-me" class="menu-entry"><a href="">About Me</a></span>
             <span class="menu-entry"><a href="">My Projects</a></span>
             <span class="menu-entry"><a href="">Work Experience</a></span>
             <span class="menu-entry"><a href="">Interests</a></span>
             <span class="menu-entry menu-bottom"><a href="">Contact</a></span>
           </div>
+          <div id="about-me" class="page-content hidden">
+            Hello!
+          </div>
         </div>
 
-        <div class="span4" ></div>
+        
+
+        <div class="span3" ></div>
       </div> 
-      <script src="http://code.jquery.com/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+
     </div>
   </body>
 </html>

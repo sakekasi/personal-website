@@ -125,6 +125,8 @@ body{
     -webkit-transition:.5s;
     /* ...and now for the proper property */
     transition:.5s;
+
+    margin-right: 5px;
 }
 
 i{
@@ -168,7 +170,7 @@ i{
 
     height: auto;
     padding: 4px;
-    padding-bottom: 14px;
+    padding-bottom: 5px;
     padding-top: 18px;
 
     width: auto;
@@ -192,4 +194,19 @@ i{
 
 #nav #name a:focus{
     color: #EEEEEE;
+}
+
+#icons{
+
+    position: relative;
+    top: -8px;
+    left: -5px;
+
+    display: inline-block;
+
+    font-size: 30px;
+}
+
+#icons i{
+    color: #737373;
 }

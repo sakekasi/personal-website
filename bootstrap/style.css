@@ -5,9 +5,8 @@ html {
 
 body{
 	height: 100%;
-
-//	background-image: url('New-York-Skyline-Night-Usa.jpg');
-    background-image: url('CNyIluAZGcq_odJmNlbTAAXgnyXDoi2CrAdOVrOinrI.jpg');
+  	background-image: url('New-York-Skyline-Night-Usa.jpg');
+    /*background-image: url('CNyIluAZGcq_odJmNlbTAAXgnyXDoi2CrAdOVrOinrI.jpg');*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -18,7 +17,7 @@ body{
     height: 100%;
 }
 
-.row{
+#content-row{
     height: 100%;
 }
 
@@ -28,43 +27,54 @@ body{
     height: 100%;
 }
 
-.page-content{
+.content-container{
     display: table-cell;
     vertical-align: middle;
 
-    width: 100%;
     height: 100%;
+}
+
+.page-content{
+    width: 100%;
+
+    color: #737373;
+    background-color: rgba(1,1,1,.8);
+
+    border-top: dashed;
+    border-bottom: dashed;
 }
 
 .menu-entry{
     display: block;
 
-    padding-left: 10px;
-    padding-bottom: 6px;
-    padding-top: 6px;
-    border-top: dashed;
-
-    color: #737373;
-    background-color: rgba(1,1,1,.8);
+    padding-left: 0px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-top: dashed;  
+    
 
     font-size: 20pt;
 }
+
+.menu-entry.menu-top{
+    border-top: none;
+}
+
+.menu-entry.menu-bottom{
+}
+
 
 .menu-entry a{
     text-decoration: none;
     color: inherit;
     width: 100%;
 
-      /* First we need to help some browsers along for this to work.
-     Just because a vendor prefix is there, doesn't mean it will
-     work in a browser made by that vendor either, it's just for
-     future-proofing purposes I guess. */
-     -o-transition:.5s;
-     -ms-transition:.5s;
-     -moz-transition:.5s;
-     -webkit-transition:.5s;
-     /* ...and now for the proper property */
-     transition:.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
  }
 
 .menu-entry a:focus{
@@ -75,6 +85,111 @@ body{
     color: #AAAAAA;
 }
 
-.menu-bottom{
-    border-bottom: dashed;
+.page-content{
+    padding: 8px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.content-top{
+    padding-top: 4px;
+}
+
+.title{
+    position: relative;
+
+    top: 4px;
+    left: -10px;
+
+    display: inline-block;
+    color: inherit;
+    font-size: 20pt;
+}
+
+.back{
+    position: relative;
+
+    top: -1px;
+    left: 2px;
+
+    display: inline-block;
+    width: 30px;
+
+    color: white;
+    opacity: .33;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+i{
+    color: white;
+}
+
+.back:hover{
+    opacity: .75;
+}
+
+.back:focus{
+    opacity: 1;
+}
+
+.content-text{
+    overflow-y: auto;
+    width: 100%;
+    height: 0px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-color: #404040;
+    border-style: solid;
+    border-width: 1px;
+
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+#nav{
+    display: inline-block;
+    position: absolute;
+
+    top: 0px;
+
+    background-color: rgba(1,1,1,.8);
+
+    color: #737373;
+    font-size: 40pt;
+
+    height: auto;
+    padding: 4px;
+    padding-bottom: 14px;
+    padding-top: 18px;
+
+    width: auto;
+}
+
+#nav #name a{
+    text-decoration: none;
+    color: inherit;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+#nav #name a:hover{
+    color: #CCCCCC;
+}
+
+#nav #name a:focus{
+    color: #EEEEEE;
 }

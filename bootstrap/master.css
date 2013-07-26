@@ -1,0 +1,182 @@
+/*master.css*/
+
+@import url(css/bootstrap.css);
+
+@import url(css/font-awesome.min.css);
+
+@import url(font/roboto/stylesheet.css);
+
+/*////////////////////
+// UNIVERSAL STYLES //
+////////////////////*/
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('New-York-Skyline-Night-Usa.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: robotomedium;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+    /* ...and now for the proper property */
+  transition: .5s;
+}
+
+a:hover {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+i {
+  color: inherit;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+    /* ...and now for the proper property */
+  transition: .5s;
+}
+
+
+/*///////////////////////
+// BOOTSTRAP SELECTORS //
+///////////////////////*/
+
+.container {
+  height: 100%;
+}
+
+#content-row {
+  height: 100%;
+}
+
+/*////////////////////
+// TEMPLATE LAYOUTS //
+////////////////////*/
+
+#nav {
+  background-color: rgba(1,1,1,.8);
+  color: #737373;
+  display: inline-block;
+  font-size: 40pt;
+  padding: 4px;
+  padding-top: 18px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 0px;
+}
+
+#nav #name a:hover {
+  color: #CCCCCC;
+}
+
+#icons {
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  top: -8px;
+  left: -5px;
+}
+
+#page-container {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#page-column {
+  display: table;
+  height: 100%;
+}
+
+.page-content {
+  background-color: rgba(1,1,1,.8);
+  color: #737373;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 12px;
+  width: 100%;
+}
+
+.menu-entry {
+  border-top: solid;
+  border-width: 1px;
+  display: block;
+  font-size: 20pt;
+  margin-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+}
+
+.menu-entry.menu-top {
+  border-top: none;
+}
+
+.menu-entry a {
+  width: 100%;
+}
+
+.page-content-top {
+  padding-top: 4px;
+}
+
+.title {
+  color: inherit;
+  display: inline-block;
+  font-size: 20pt;
+  position: relative;
+  top: 4px;
+  left: -10px;
+}
+
+.back {
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+  left: 2px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+    /* ...and now for the proper property */
+  transition: .5s;
+  width: 30px;
+}
+
+.content-text {
+  border-color: #404040;
+  border-style: solid;
+  border-width: 1px;
+  height: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  padding-top: 4px;
+  padding-left: 4px;
+  width: 100%;
+}
+

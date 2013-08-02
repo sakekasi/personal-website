@@ -173,13 +173,15 @@ i {
   border-width: 1px;
   min-height: 350px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   overflow-y: auto;
   padding-top: 4px;
   padding-left: 4px;
   width: 100%;
 }
 
-.project-title{
-  font-size: 11pt;
+.category-title{
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  font-size: 12pt;
 }

@@ -12,6 +12,17 @@ function clicker (id){
 	}
 };
 
+function load_callback(id){
+	switch(id){
+	case 'about-me':
+		return function(){
+			$('#contact-link').click(clicker('#contact'));
+		};
+	default:
+		return function(){};
+	}
+};
+
 function go_back (){
 	if (!in_menu){
 		$('.page-content').animate({ height: 'hide', opacity: 'hide' }, faster);//.hide();
@@ -23,7 +34,7 @@ function go_back (){
 $(document).ready(function(){
 	in_menu = true;
 
-	var tokens = $(location).attr('href').split("#");
+	var tokens = $(location).attr('href').split('#');
 	var index = $.inArray(tokens.slice(-1)[0], ids);
 	if(  index != -1 ){
 		$('#'+ids[index]+'.page-content').removeClass('hidden');
@@ -40,16 +51,19 @@ $(document).ready(function(){
 	});
 
 	ids.map(function(item){
-		$('#'+item+'.page-content .content-text').load("content/"+item+".html");
+		$('#'+item+'.page-content .content-text').load('content/'+item+'.html', load_callback(item));
 	});
 	
 
+
 	$('.back').click(go_back);
 
-	$("body").keydown(function(e) {
+	$('body').keydown(function(e) {
 	  if(e.keyCode == 27) { // esc
 	    go_back();
 	    window.location = $('.back a').attr('href');
 	  }
 	});	
+
+
 });

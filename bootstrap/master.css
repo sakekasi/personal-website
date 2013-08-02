@@ -111,7 +111,7 @@ i {
 }
 
 .page-content {
-  background-color: rgba(1,1,1,.8);
+  background-color: rgba(1,1,1,.9);
   color: #737373;
   padding-top: 8px;
   padding-bottom: 12px;
@@ -171,7 +171,7 @@ i {
   border-color: #404040;
   border-style: solid;
   border-width: 1px;
-  height: 350px;
+  min-height: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
   overflow-y: auto;
@@ -180,3 +180,6 @@ i {
   width: 100%;
 }
 
+.project-title{
+  font-size: 11pt;
+}

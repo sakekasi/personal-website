@@ -1,5 +1,5 @@
 var faster = 150;
-var ids = ['about-me', 'my-projects', 'work-experience', 'interests', 'contact'];
+var ids = ['about-me', 'my-projects', 'work-experience', 'interests'];
 var in_menu = true;
 
 function clicker (id){

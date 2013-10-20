@@ -7,7 +7,7 @@ function clicker(id) {
 	return function() {
 		console.log(id + ' clicked');
 		$('.page-content').slideUp(immediate);
-		$('#' + id + '.page-content').slideDown('fast');
+		$('#' + id + '.page-content').stop().slideDown('fast');
 		//$('.page-content').animate({ height: 'hide', opacity: 'hide' }, faster);//.hide();
 		//$('#' + id + '.page-content').animate({ height: 'show', opacity: 'show' }, 'fast');//.show();
 
@@ -29,7 +29,7 @@ function load_callback(id) {
 function go_back() {
 	if (!in_menu) {
 		$('.page-content').slideUp(immediate);
-		$('#main-menu.page-content').slideDown('fast');
+		$('#main-menu.page-content').stop().slideDown('fast');
 		//$('.page-content').animate({ height: 'hide', opacity: 'hide' }, faster);//.hide();
 		//$('#main-menu.page-content').animate({ height: 'show', opacity: 'show' }, 'fast');//.show();
 		in_menu = true;

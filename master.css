@@ -5,6 +5,8 @@
 @import url(css/font-awesome.min.css);
 
 @import url(font/roboto/stylesheet.css);
+@import url(font/league/stylesheet.css);
+@import url(font/aller/stylesheet.css);
 
 /*////////////////////
 // UNIVERSAL STYLES //
@@ -15,7 +17,8 @@ html {
 }
 
 body {
-  background-image: url('New-York-Skyline-Night-Usa.jpg');
+  /*background-image: url('New-York-Skyline-Night-Usa.jpg');*/
+  background-image: url('skylinebw.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -74,27 +77,44 @@ i {
 ////////////////////*/
 
 #nav {
+  font-family: league_gothicitalic;
   background-color: rgba(1,1,1,.5);
   color: #999999;
   display: inline-block;
-  font-size: 36pt;
+  font-size: 55pt;
   padding: 4px;
-  padding-left: 12px;
+  padding-left: 25px;
   /*position: absolute;*/
   top: 0px;
   
+}
+
+#name{
+  color: #88DBB6;
+  margin-right: 15px;
+}
+
+#name:hover{
+  color: #92EBC3;
+}
+
+#name:focus{
+  color: #9EFFD4;
 }
 
 #nav #name a:hover {
   color: #CCCCCC;
 }
 
+
 #icons {
   display: inline-block;
-  font-size: 30px;
+  font-size: 37px;
   position: relative;
-  top: -8px;
-  left: -5px;
+  /*top: 25px;*/
+  float: right;
+  margin-right: 25px;
+  line-height: 100px;
 }
 
 #page-column {
@@ -114,14 +134,16 @@ i {
 }
 
 .menu-entry {
+  font-family: league_gothicitalic;
+  font-size: 28pt;
+
   border-top: solid;
   border-width: 1px;
   display: block;
-  font-size: 20pt;
   margin-left: 8px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
 
 .menu-entry.menu-top {
@@ -132,16 +154,14 @@ i {
   width: 100%;
 }
 
-.page-content-top {
-  padding-top: 4px;
-}
 
 .title {
+  font-family: league_gothicitalic;
+  font-size: 28pt;
   color: inherit;
   display: inline-block;
-  font-size: 20pt;
+  
   position: relative;
-  top: 4px;
   left: -10px;
 }
 
@@ -149,7 +169,7 @@ i {
   display: inline-block;
   margin-right: 5px;
   position: relative;
-  top: -1px;
+  top: -10px;
   left: 2px;
   -o-transition: .5s;
   -ms-transition: .5s;
@@ -161,6 +181,8 @@ i {
 }
 
 .content-text {
+  font-family: allerregular;
+  font-size: 12pt;
   border-color: #999999;
   border-style: solid;
   border-width: 1px;
@@ -168,8 +190,9 @@ i {
   margin-top: 10px;
   margin-bottom: 2px;
   /*overflow-y: auto;*/
-  padding-top: 4px;
-  padding-left: 4px;
+  padding-top: 6px;
+  padding-left: 9px;
+  padding-right: 9px;
   width: 100%;
   text-shadow: -1px 0 #333333, 0 1px #333333, 1px 0 #333333, 0 -1px #333333;
 }

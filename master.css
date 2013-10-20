@@ -24,6 +24,10 @@ body {
   height: 100%;
 }
 
+@media only screen and (max-width: 400px) {
+  body { font-size:80%;}
+}
+
 a {
   color: inherit;
   text-decoration: none;

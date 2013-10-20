@@ -2,7 +2,7 @@
 
 @import url(css/bootstrap.css);
 
-@import url(css/font-awesome.css);
+@import url(css/font-awesome.min.css);
 
 @import url(font/roboto/stylesheet.css);
 @import url(font/league/stylesheet.css);

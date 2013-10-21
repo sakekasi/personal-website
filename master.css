@@ -26,8 +26,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: robotomedium;
   height: 100%;
+  font-size: 19px;
 }
 
 
@@ -188,8 +188,8 @@ i {
   display: inline-block;
   margin-right: 5px;
   position: relative;
-  top: -10px;
-  left: 2px;
+  top: -9px;
+  left: 1px;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;

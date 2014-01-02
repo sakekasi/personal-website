@@ -59,7 +59,7 @@ $(document).ready(function() {
 	});
 	
 
-	$('.back').click(go_back);
+	$('.page-content-top').click(go_back);
 
 	$('body').keydown(function(e) {
 	  if(e.keyCode == 27) { // esc

@@ -4,13 +4,14 @@ var ids = ["about", "experience", "school", "skills", "projects", "contact"];
 
 $(document).ready(function()
 {	
+	
 	applyHeader();
 	applyNavigation(); 
+	loadContent();
 	applyMailTo();
 	applyResize();
-	checkHash();
+	//checkHash();
 	checkBrowser();
-	loadContent();
 });
 
 /* HEADER FUNCTIONS */
@@ -83,7 +84,7 @@ function applyScrollSpy()
 {
 	$('#navbar-example').on('activate.bs.scrollspy', function() 
 	{
-		window.location.hash = $('.nav .active a').attr('href').replace('#', '#/');
+		window.location.hash = $('.nav .active a').attr('href');//.replace('#', '#/');
 	});
 }
 

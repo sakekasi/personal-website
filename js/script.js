@@ -10,7 +10,7 @@ $(document).ready(function()
 	loadContent();
 	applyMailTo();
 	applyResize();
-	//checkHash();
+	checkHash();
 	checkBrowser();
 });
 
@@ -84,7 +84,7 @@ function applyScrollSpy()
 {
 	$('#navbar-example').on('activate.bs.scrollspy', function() 
 	{
-		window.location.hash = $('.nav .active a').attr('href');//.replace('#', '#/');
+		window.location.hash = $('.nav .active a').attr('href').replace('#', '#/');
 	});
 }
 

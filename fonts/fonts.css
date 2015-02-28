@@ -1,4 +1,12 @@
 @font-face {
+    font-family: 'neuehaasgrotesk';
+    src: url('neue_haas_grotesk/HaasGrotDisp-55Roman.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'robotobold';
     src: url('roboto_bold_macroman/Roboto-Bold-webfont.eot');
     src: url('roboto_bold_macroman/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),

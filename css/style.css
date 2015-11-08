@@ -2,84 +2,98 @@
 	body, h4 {font-size: 20px;}
 	h2 {font-size: 54px;}
 	h3 {font-size: 28px;}
+	strong {font-size: 25px;	}
 }
 
 @media all and (max-width:1000px){
 	body, h4 {font-size: 20px;}
 	h2 {font-size: 54px;}
 	h3 {font-size: 28px;}
+	strong {font-size: 25px;}
 }
 
 @media all and (max-width:960px){
 	body, h4 {font-size: 19px;}
 	h2 {font-size: 53px;}
 	h3 {font-size: 27px;}
+	strong {font-size: 24px;	}
 }
 
 @media all and (max-width:920px){
 	body, h4 {font-size: 18px;}
 	h2 {font-size: 52px;}
 	h3 {font-size: 26px;}
+	strong {font-size: 23px;	}
 }
 
 @media all and (max-width:880px){
 	body, h4 {font-size: 17px;}
 	h2 {font-size: 51px;}
 	h3 {font-size: 25px;}
+	strong {font-size: 22px;	}
 }
 
 @media all and (max-width:840px){
 	body, h4 {font-size: 16px;}
 	h2 {font-size: 50px;}
 	h3 {font-size: 24px;}
+	strong {font-size: 21px;	}
 }
 
 @media all and (max-width:800px){
 	body, h4 {font-size: 15px;}
 	h2 {font-size: 49px;}
 	h3 {font-size: 23px;}
+	strong {font-size: 20px;	}
 }
 
 @media all and (max-width:760px){
 	body, h4 {font-size: 14px;}
 	h2 {font-size: 48px;}
 	h3 {font-size: 22px;}
+	strong {font-size: 19px;	}
 }
 
 @media all and (max-width:720px){
 	body, h4 {font-size: 13px;}
 	h2 {font-size: 47px;}
 	h3 {font-size: 21px;}
+	strong {font-size: 18px;	}
 }
 
 @media all and (max-width:680px){
 	body, h4 {font-size: 12px;}
 	h2 {font-size: 46px;}
 	h3 {font-size: 20px;}
+	strong {font-size: 17px;	}
 }
 
 @media all and (max-width:640px){
 	body, h4 {font-size: 16px;}
 	h2 {font-size: 45px;}
 	h3 {font-size: 19px;}
+	strong {font-size: 16px;	}
 }
 
 @media all and (max-width:600px){
 	body, h4 {font-size: 15px;}
 	h2 {font-size: 44px;}
 	h3 {font-size: 18px;}
+	strong {font-size: 15px;	}
 }
 
 @media all and (max-width:560px){
 	body, h4 {font-size: 15px;}
 	h2 {font-size: 43px;}
 	h3 {font-size: 17px;}
+	strong {font-size: 14px;	}
 }
 
 @media all and (max-width:520px){
 	body, h4 {font-size: 14px;}
 	h2 {font-size: 42px;}
 	h3 {font-size: 16px;}
+	strong {font-size: 13px;	}
 }
 
 /*credits to practicaltypography.com*/
@@ -100,7 +114,6 @@ html, body {
 
 body {
 	background: hsl(0,0%,90%);
-	/*font-size: 20px;*/
 	line-height: 1.4;
 }
 
@@ -121,7 +134,6 @@ h2,h3 {
 }
 
 h2 {
-	/*font-size: 54px;*/
 	text-align: center;
 }
 
@@ -198,22 +210,22 @@ hr {
 .jumbotron {
 	background: no-repeat center right fixed url(../img/background.jpg);
 
-	-webkit-background-size: 100%; 
-	-moz-background-size: 100%; 
-	-o-background-size: 100%; 
-	background-size: 100%; 
-	
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/background.jpg', sizingMethod='scale')";
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/background.jpg', sizingMethod='scale');
-	
+
 	margin-bottom: 0px;
 	padding: 0px;
-}  
+}
 
 .jumbotron .overlay {
 	background-color: hsl(42,100%,50%);
@@ -263,12 +275,12 @@ hr {
 	z-index: 6;
 }
 
-.jumbotron .scroll-down .glyphicon { 
-	color: #FFFFFF; 
-	font-size: 30px; 
-	padding-right: 2px; 
-	padding-top: 20px; 
-	
+.jumbotron .scroll-down .glyphicon {
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-right: 2px;
+	padding-top: 20px;
+
 	animation-name: wiggle;
 	animation-duration: 1.2s;
 	animation-timing-function: linear;
@@ -355,9 +367,9 @@ hr {
 /*#skills ul > li:hover { background: #F2F2F2; }*/
 #skills ul > li .ability-title { display: inline-block; width: 60%; }
 #skills ul > li .ability-score { float: right; }
-#skills ul > li .ability-score .glyphicon { 
-	color: #DFE0E0; 
-	font-size: 14px; 
+#skills ul > li .ability-score .glyphicon {
+	color: #DFE0E0;
+	font-size: 14px;
 
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -426,7 +438,7 @@ hr {
 	width: 100%;
 }
 
-#projects figure .icon { 
+#projects figure .icon {
 	background: hsl(221, 50%, 60%);
 	position: absolute;
 	top: 0px;
@@ -443,13 +455,13 @@ hr {
 
 #contact { padding-bottom: 200px; }
 #contact h2, #contact .row * { color: #FFFFFF; }
-#contact a { 
-	display: block; 
-	line-height: 32px; 
-	margin-bottom: 20px; 
-	opacity: 0.6; 
+#contact a {
+	display: block;
+	line-height: 32px;
+	margin-bottom: 20px;
+	opacity: 0.6;
 	filter:alpha(opacity=60);
-	
+
 	margin-left: 20%;
 	  /*margin-right: auto;
 	  width: -moz-fit-content;
@@ -481,44 +493,44 @@ hr {
 	background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') no-repeat;
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 	#interests .interest-content { padding: 20px 0px; }
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.jumbotron:before {
 		bottom: 100px;
 		left: 20px;
 		right: 20px;
-		top: 20px;		
+		top: 20px;
 	}
 	.jumbotron .container { top: 20%; padding-top: 0px; }
 	.jumbotron .scroll-down { width: 100%; right: 0px; }
-	
+
 	.navbar  { left: 0px; width: 100%; }
 	.navbar .nav > li { height: 60px; }
 	.navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
-	
+
 	.fixed .navbar { top: 0px; }
-	
+
 	.container { padding: 60px 20px; min-width: 280px; }
 	.hidden-phone { display: none; }
-	
+
 	#profile .row * { text-align: center; }
-	
+
 	#experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
 	#experiences .experience .experience-details .seperator { display: none; }
-	
+
 	#interests .left { float: none; }
 	#interests .right { float: none; }
-	
+
 	#interests > * { text-align: center; }
-	#interests img { width: 50%; height: auto; float: none !important; } 
+	#interests img { width: 50%; height: auto; float: none !important; }
 	#interests .interest-content { padding: 20px 0px; }
-	
+
 	#contact { padding-bottom: 60px; }
 	#contact a .icon { float: left; margin-right: 10px; }
-}    
+}
 
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
 	.jumbotron {
@@ -532,7 +544,7 @@ hr {
 		-webkit-background-size: 150% auto;
 		background-attachment: scroll;
 	}
-	
+
 	.jumbotron .lead { display: none; }
 }
 
@@ -665,10 +677,6 @@ img.noun_icon{
 
 #skills .no-bullets {
 	margin-bottom: 25px;
-}
-
-strong {
-    font-size: 25px;
 }
 
 ul.nav.navbar-nav {

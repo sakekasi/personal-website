@@ -1,0 +1,8 @@
+[
+  {
+    "name": "A logic Internal DSL for JavaScript",
+    "url": "https://github.com/sakekasi/logic-idsl",
+    "description": "This project brings declarative programming features, common to languages like prolog, into JavaScript. It uses ES6 proxies to put logic language semantics behind ES6 syntax.",
+    "image": "data/project-images/prolog-idsl.png"
+  }
+]

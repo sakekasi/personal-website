@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "homepage": "https://github.com/sakekasi/personal-website",
+  "authors": [
+    "Saketh Kasibatla <sake.kasi@gmail.com>"
+  ],
+  "description": "my personal website, a hub for my internet presence",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "paper-card": "^0.1.5"
+  }
+}

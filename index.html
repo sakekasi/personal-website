@@ -1,158 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="content-script-type" content="text/javascript" />
 	<meta http-equiv="content-style-type" content="text/css" />
-	<meta http-equiv="content-language" content="nl" />
+	<meta http-equiv="content-language" content="en" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<meta name="author" content="Saketh Kasibatla" />	
-	<meta name="description" content="I'm Saketh Kasibatla, a Computer Science student at UCLA with an interest in Artificial Intelligence and Design." />
-	<meta name="keywords" content="Saketh Kasibatla, UCLA, C, C++, Artificial Intelligence, Databases"/>
-	<!--<meta name="robots" content="index, follow" />-->
-	<!--<meta name="revisit-after" content="14 days" />-->
+	<meta name="author" content="Saketh Kasibatla" />
+	<meta name="description" content="I'm Saketh Kasibatla, a Computer Science student at UCLA with an interest in Interface and Design." />
+	<meta name="keywords" content="Saketh Kasibatla, UCLA, JavaScript, Programming Languages, HCI, Design"/>
 
-	<title>Saketh Kasibatla</title>
+  <title>Saketh Kasibatla</title>
 
-	<!-- Bootstrap core CSS -->
-		<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"
-		rel="stylesheet" type="text/css" />-->
-		<link href="css/reset.css" rel="stylesheet" />
-		<link href="fonts/fonts.css" rel="stylesheet" />		
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-		<link href="css/style.css" rel="stylesheet" />
+  <link href="css/reset.css" rel="stylesheet" />
+  <link href="fonts/fonts.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-		
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-		
-		<!--[if lt IE 9]>
-		<script src="/view/js/html5shiv.js"></script>
-		<script src="/view/js/respond.min.js"></script>
-		<![endif]-->
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
-	</head>
-	<body data-spy="scroll" data-target="#navbar-example">	 
-		
-		<div id="top" class="jumbotron" data-src="/view/images/hotdog_stand_animation.gif" data-position="center center">
-			<div class="container">
-				<h1>Saketh Kasibatla</h1>
-				<p class="lead">Personal Profile</p>				
-			</div>
-			
-			<div class="overlay"></div>
-			
-			<a href="#projects" class="scroll-down">	
-				<span class="glyphicon glyphicon-chevron-down"></span>
-			</a>
-		</div>
-		
-		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
+  <link rel="import" href="bower_components/paper-card/paper-card.html">
+</head>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#projects">Projects</a></li>					
-					<li><a href="#about">Me</a></li>
-					<li><a href="#experience">Experience</a></li>
-					<li><a href="#school">School</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<!--<li><a href="#interests">Interests</a></li>-->
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</nav>
-		
-		<div class="background-white">		
-			<div id="projects" class="container">
-				<h2>Projects</h2>
+<body>
+  <div id="titlePage">
+    <h1>Saketh Kasibatla</h1>
+  </div>
 
-				<hr />
+  <div id="paragraph">
+  </div>
 
-				<div class="content"></div>														
-				
-			</div>
-		</div>
-
-		<div id="about" name="about" class="container">
-			<h2>Me</h2>
-
-			<hr />
-
-			<div class="content"></div>
-		</div>	
-		
-		<div class="background-white">		
-			<div id="experience" class="container">
-				<h2>Experience</h2>
-
-				<hr />
-
-
-
-				<div class="content"></div>			
-			</div>
-		</div>
-
-		
-		<div id="school" name="school" class="container">
-			<h2>School</h2>
-
-			<div class="content"></div>							
-
-		</div>
-		
-		
-		<div class="background-white">		
-			<div id="skills" class="container">
-				<h2>Skills</h2>
-
-				<hr />
-
-				<div class="content"></div>										
-
-			</div>
-		</div>
-		
-		
-
-
-		<!--<div id="interests" class="container">
-			<h2>Interests</h2>
-
-			<hr />
-
-			<div class="content"></div>																	
-
-		</div>-->
-
-		
-		<div class="background-gray">
-			<div id="contact" class="container">
-				<h2>Contact</h2>
-
-				<hr />
-
-				<div class="content"></div>																					
-
-
-			</div>
-		</div>
-		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-	</body>
-	</html>
+  <div id="projects">
+    <ul>
+      <li>
+        <paper-card heading="logic-idsl" image="data/project-images/prolog-idsl.png">
+          <div class="card-content">
+            This project brings declarative programming features, common to languages like prolog, into JavaScript. It uses ES6 proxies to put logic language semantics behind ES6 syntax.
+          </div>
+        </paper-card>
+      </li>
+      <li>b</li>
+      <li>c</li>
+      <li>d</li>
+    </ul>
+  </div>
+</body>
+</html>
